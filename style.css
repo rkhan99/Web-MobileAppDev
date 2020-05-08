@@ -1,0 +1,73 @@
+.font-11{
+    font-size: 11px !important;
+}
+.header-nav{
+    border: 1px silid red;
+}
+.nav-item:hover{
+    background-color: #2478F9;
+}
+.dropdown-item:hover{
+    background-color: #2478F9;
+}
+ul li{
+    font-size: 14px;
+    padding: 0 6px 0 6px;
+}
+.home{
+    background-color: #2478F9;
+}
+.md{
+    color: #2478F9;
+}
+.darkblue{
+    color: darkblue;
+}
+.date{
+    color: #34F831;
+}
+.green{
+    color: darkgreen;
+}
+@font-face{
+    font-family: 'Merriweather';
+    src: url(fonts/Merriweather-Light.ttf);
+}
+@font-face{
+    font-family: 'Merriweather-bold';
+    src: url(fonts/Merriweather-Bold.ttf);
+}
+.font{
+    font-family: 'Merriweather', serif !important;
+}
+.font2{
+    font-family: 'Merriweather-Bold', serif !important;
+}
+.bold{
+    font-weight: 800px;
+}
+.font-size{
+    font-size: 14px;
+}
+.font-size3{
+    font-size: 18px;
+}
+.font-size2{
+    font-size: 3rem !important;
+}
+.font-size4{
+    font-size: 12px !important;
+}
+.boxshadow{
+    box-shadow: -2px 3px 12px 4px lightgrey;
+}
+.size{
+    width: 250px;
+    height: 200px;
+}
+.footer{
+    background-color: rgb(37, 39, 46);
+}
+.footer li{
+    background-color: rgb(37, 39, 46) !important;
+}

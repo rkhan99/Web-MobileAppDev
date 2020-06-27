@@ -1,0 +1,25 @@
+.main1{
+    border: 1px solid grey !important;
+    width: 400px !important;
+    height: 360px 1 !important;
+    margin: 0 auto !important;
+    
+}
+
+.inputt{
+    width: 100% !important;
+    height: 50px !important;
+    background-color: grey !important;
+    color: white !important;
+    font-size: 30px !important;
+}
+
+.butns{
+    width: 24% !important;
+    margin: 10px 6px !important;
+    height: 40px !important;
+    font-size: larger !important;
+}
+.bg-dark{
+    background-color: white !important;
+}

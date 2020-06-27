@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div style="background-image: url(images/237658.jpg); background-repeat: repeat; background-size: 100%; ">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-12 col-lg-12 d-flex justify-content-center">
+                    <h1 class="text-light text-center w-100">JS ASSIGNMENT # 7</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-md-12 col-lg-12 d-flex justify-content-center">
+                    <h3 class="text-light text-center w-100">CALCULATOR</h3>
+                </div>
+            </div>
+        </div>
+        <div class="main1 bg-dark">
+            <input type="text" class="inputt" id="result">
+            <div class="row1 d-flex flex-row">
+                <button class="butns" onclick="ac()">AC</button>
+                <button class="butns" onclick="back()">&#x2190;</button>
+                <button class="butns">+/-</button>
+                <button class="butns" onclick="result('/')">/</button>
+            </div>
+            <div class="row2 d-flex flex-row">
+                <button class="butns" onclick="result('7')">7</button>
+                <button class="butns" onclick="result('8')">8</button>
+                <button class="butns" onclick="result('9')">9</button>
+                <button class="butns" onclick="result('*')">x</button>
+            </div>
+            <div class="row3 d-flex flex-row">
+                <button class="butns" onclick="result('4')">4</button>
+                <button class="butns" onclick="result('5')">5</button>
+                <button class="butns" onclick="result('6')">6</button>
+                <button class="butns" onclick="result('-')">-</button>
+            </div>
+            <div class="row4 d-flex flex-row">
+                <button class="butns" onclick="result('1')">1</button>
+                <button class="butns" onclick="result('2')">2</button>
+                <button class="butns" onclick="result('3')">3</button>
+                <button class="butns" onclick="result('+')">+</button>
+            </div>
+            <div class="row5 d-flex flex-row">
+                <button class="butns" onclick="result('%')">%</button>
+                <button class="butns" onclick="result('0')">0</button>
+                <button class="butns" onclick="result('.')">.</button>
+                <button class="butns" onclick="equals()">=</button>
+            </div>
+        </div>
+        <div class="row w-100 d-flex justify-content-end">
+            <h5 class="text-right text-light">Rayyan Hasan Khan</h5>
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</html>

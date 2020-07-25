@@ -9,9 +9,9 @@ for(var y=0;y<render.length;y++){
     document.write(render[y].innerHTML);
 }
 
-document.getElementById("first-name").value = "SYED RAFAY"
-document.getElementById("last-name").value = "HASHMI"
-document.getElementById("email").value = "abc@gmail.com"
+document.getElementById("first-name").value = "RAYYAN"
+document.getElementById("last-name").value = "KHAN"
+document.getElementById("email").value = "abc99@gmail.com"
 
 
 

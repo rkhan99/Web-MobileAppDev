@@ -1,24 +1,26 @@
 // ============== Chapter53-58 Task 1
 
-var images  = ['images/others/1.jpg','images/others/2.jpg','images/others/3.jpg','images/others/5.jpg'];
+var images = ['images/others/1.jpg', 'images/others/2.jpg', 'images/others/3.jpg', 'images/others/4.png']; 
 var imgs = document.getElementById("images");
-for(var i=0;i<images.length;i++){
-    imgs.innerHTML += "<img onclick = 'openModal("+i+")' class = 'format' src='"+images[i]+"'>"
+for (var i = 0; i <  images.length; i++) {
+    imgs.innerHTML += "<img src='" + images[i] + "' alt='image' class = 'format' onclick='openimage(" + i + ");'>"
 }
 
-function openModal(idx){
+
+function openimage(x) {
     var modal = document.getElementById('modal');
     modal.classList.add('modal-open');
     modal.classList.remove('modal-close');
     modal.style.display = "block";
-    var modalimgs = document.getElementById("modal-img");
-    modalimgs.src = images[idx]
-
+    var imgmodal = document.getElementById("modal-img");
+    imgmodal.src = images[x]; 
 }
-function onClosedImagModal(){
+
+function onClosedImagModal() {
+    var modal = document.getElementById('modal');
     modal.classList.add('modal-close');
-    modal.classList.remove('modal-open')
-    setTimeout(()=>{ modal.style.display = "none"; }, 550)
+    modal.classList.remove('modal-open');
+    setTimeout(()=>{ modal.style.display = "none"; }, 550);
 }
 
 
